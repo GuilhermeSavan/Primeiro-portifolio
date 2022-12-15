@@ -50,16 +50,16 @@
         </section>
         <section id="about">
             <div class="main_about">
-                <h2>Sobre min</h2>
-                <p>Oi, meu nome e Guilherme Savan, tenho 22 anos,
-              em 2020 ingressei na curso de Eng. da computação,
-               foi quando me apaixonei pela area de desenvolvimento
-              e data science, que são minhas opçoes de especialização.
-              Além do curso atual que estou no momento, futuramente
-                vou cursar em eng. da Software, meu objetivo no curto 
-            prazo e ingressar na area de desenvolvimento web ou data 
-            science, estou estudando Front-end e Back-end todos dias, 
-            para me tornar  </p>
+              <h2>Sobre min</h2>
+                 <p>Oi, meu nome e Guilherme Savan, tenho 22 anos,
+             em 2020 ingressei na curso de Eng. da computação,
+             foi quando me apaixonei pela area de desenvolvimento
+             e data science, que são minhas opçoes de especialização.
+             Além do curso atual que estou no momento, futuramente
+             vou cursar em eng. da Software, meu objetivo no curto 
+             prazo e ingressar na area de desenvolvimento web ou data 
+             science. minha paixao pelo desenvolvimento vai alem de
+             qualquer distancia, </p>
         </div>
 
         <div class="stack">
@@ -168,21 +168,20 @@
                  Sorocaba-SP</p>
         </div>
 
-        <form>
+        <form onsubmit="sendEmail(); reset(); return false" class="form">
             <fieldset>
-                <label for="Name">Seu nome</label>
-            <input type="text" id="Name" class="input-padrao" required>
+                <label for="nome">Seu nome</label>
+            <input type="text" id="nome" class="input-padrao" required>
 
             <label for="Email">Seu email</label>
-            <input type="email" id="Email" class="input-padrao" required>
+            <input type="email" id="email" class="input-padrao" required>
             
             <label for="Msn">Mensagem</label>
             <textarea name="" id="Msn" cols="30" rows="6" class="input-padrao" required>
             </textarea>
 
-            <input type="submit" value="Enviar" class="send">
+            <button type="submit" id="send">Enviar</button>
             </fieldset>
-            
         </form> 
         </div>
     </section>
@@ -191,6 +190,7 @@
   <footer>
     <p>&copy; 2022 Guilherme Savan All rights reserved</p>
   </footer>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="/assets/main.js"></script>
 </body>
 </html>

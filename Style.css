@@ -478,8 +478,6 @@ label {
     display: block;
 }
 
-
-
 .input-padrao{
     display: block;
     margin: 10px 0 20px;
@@ -487,9 +485,10 @@ label {
     padding: 5px 25px;
     background: #343434;
     border-radius: 8px;
+    color: #FFFFFF;
 }
 
-.send  {
+#send  {
     width: 30%;
     padding: 15px 30px;
     border: none;
@@ -499,7 +498,7 @@ label {
     transition: 1s;
 }
 
-.send:hover {
+#send:hover {
     font-size: 22px;
     color: #C1C1C1;
 }
