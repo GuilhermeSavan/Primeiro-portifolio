@@ -14,7 +14,7 @@ function sendEmail (){
     Body : "Autor:\n  "+ nome.value+", email:\n  "+ email.value +
     " Mensagem:\n " +Msn.value
 }).then(
-  message => alert("obrigado pelo contato, retornarei em preve")
+  message => alert("obrigado pelo contato, retornarei em breve")
 );
 }
   

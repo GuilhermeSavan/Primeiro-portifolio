@@ -624,6 +624,12 @@ footer p {
     }
 }
 
+@media screen and (width <= 500px) {
+    #send {
+        width: 100%;
+    }
+}
+
 
 @media screen and (width <= 425px) {
     .stack {
