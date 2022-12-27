@@ -570,6 +570,13 @@ footer p {
     .infoContact p {
         margin: 10px 0;
     }
+
+    #send {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 @media screen and (width <= 768px){
@@ -623,13 +630,6 @@ footer p {
         margin: 15px auto;
     }
 }
-
-@media screen and (width <= 500px) {
-    #send {
-        width: 100%;
-    }
-}
-
 
 @media screen and (width <= 425px) {
     .stack {
